@@ -1,3 +1,8 @@
+"""Download data from GapMinder
+
+countries.csv - last available info for most features
+cze.csv - Czechia features evolution 1993-2013
+"""
 import pandas as pd
 import gapminderdata as gmd
 
@@ -40,6 +45,7 @@ def run():
         .drop(
             [
                 "area",
+                "eu_accession",
                 "iso3166_1_alpha3",
                 "geo",
                 "name",
