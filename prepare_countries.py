@@ -27,7 +27,7 @@ def run():
 
     gap_data = (
         data.dropna(thresh=len(data.columns) - 4)
-        .sort_values("time", ascending=False)
+        .sort_values("year", ascending=False)
         .groupby("name")
         .first()
         # .drop(["iso3166_1_alpha3", "geo"], axis=1)
@@ -37,7 +37,7 @@ def run():
 
     cze_data = (
         data[data["name"] == "Czech Republic"]
-        .sort_values("time", ascending=True)
+        .sort_values("year", ascending=True)
         .drop(
             [
                 "area",
@@ -123,6 +123,7 @@ rename_columns = {
     "body_mass_index_bmi_women_kgperm2": "bmi_women",
     "alcohol_consumption_per_adult_15plus_litres": "alcohol_adults",
     "iso3166_1_alpha3": "iso_alpha",
+    "time": "year",
 }
 
 

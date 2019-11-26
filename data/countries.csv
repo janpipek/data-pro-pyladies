@@ -1,4 +1,4 @@
-name,iso_alpha,world_6region,world_4region,income_groups,is_eu,is_oecd,is_g77,eu_accession,geo,time,area,population,alcohol_adults,bmi_men,bmi_women,car_deaths_per_100000_people,co2_emissions_tonnes_per_person,calories_per_day,income_share_of_poorest_10percent,income_share_of_richest_10percent,life_expectancy_years
+name,iso_alpha,world_6region,world_4region,income_groups,is_eu,is_oecd,is_g77,eu_accession,geo,year,area,population,alcohol_adults,bmi_men,bmi_women,car_deaths_per_100000_people,co2_emissions_tonnes_per_person,calories_per_day,income_share_of_poorest_10percent,income_share_of_richest_10percent,life_expectancy_years
 Afghanistan,AFG,south_asia,asia,low_income,False,False,True,,afg,2008,652860.0,29840000.0,0.03,20.62,21.07,,0.1541,2041.0,,,55.21
 Albania,ALB,europe_central_asia,europe,upper_middle_income,False,False,False,,alb,2008,28750.0,3181000.0,7.29,26.45,25.66,5.978,1.46231,2947.0,3.7,24.5,75.58
 Algeria,DZA,middle_east_north_africa,africa,upper_middle_income,False,False,True,,dza,2008,2381740.0,34430000.0,0.69,24.6,26.37,,3.16138,3048.0,2.9,26.9,76.12

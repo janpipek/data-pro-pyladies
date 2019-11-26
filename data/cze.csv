@@ -1,4 +1,4 @@
-time,population,alcohol_adults,bmi_men,bmi_women,car_deaths_per_100000_people,co2_emissions_tonnes_per_person,calories_per_day,income_share_of_poorest_10percent,income_share_of_richest_10percent,life_expectancy_years
+year,population,alcohol_adults,bmi_men,bmi_women,car_deaths_per_100000_people,co2_emissions_tonnes_per_person,calories_per_day,income_share_of_poorest_10percent,income_share_of_richest_10percent,life_expectancy_years
 1993,10320000.0,,26.9,26.5,,12.803560000000001,3037.0,4.6,23.6,72.7
 1994,10320000.0,,26.93,26.46,6.144,12.13504,2978.0,,,72.99
 1995,10320000.0,,26.98,26.45,7.837000000000001,11.95457,3209.0,,,73.34
