@@ -9,10 +9,10 @@ def run():
     countries["is_eu"] = countries["name"].isin(eu.keys())
     countries["is_oecd"] = countries["g77_and_oecd_countries"] == "oecd"
     countries["is_g77"] = countries["g77_and_oecd_countries"] == "g77"
-    countries = countries.drop([
-        "g77_and_oecd_countries"
-    ], axis=1)
-    countries["eu_accession"] = pd.to_datetime(countries["name"].apply(lambda n: eu.get(n, None)))
+    countries = countries.drop(["g77_and_oecd_countries"], axis=1)
+    countries["eu_accession"] = pd.to_datetime(
+        countries["name"].apply(lambda n: eu.get(n, None))
+    )
 
     # Get data points
     data = gmd.read_columns(data_columns)
@@ -30,24 +30,27 @@ def run():
         .sort_values("time", ascending=False)
         .groupby("name")
         .first()
-        .drop(["iso3166_1_alpha3", "geo"], axis=1)
+        # .drop(["iso3166_1_alpha3", "geo"], axis=1)
         .reset_index()
     )
     gap_data.to_csv("data/countries.csv", index=False)
 
     cze_data = (
-        data.sort_values("time", ascending=True)[data["name"] == "Czech Republic"]
+        data[data["name"] == "Czech Republic"]
+        .sort_values("time", ascending=True)
         .drop(
             [
                 "area",
-                "iso3166_1_alpha3",
+                "eu_accession",
+                "iso_alpha",
                 "geo",
                 "name",
                 "world_6region",
                 "world_4region",
                 "income_groups",
                 "is_eu",
-                "is_oecd","is_g77"
+                "is_oecd",
+                "is_g77",
             ],
             axis=1,
         )
@@ -55,6 +58,7 @@ def run():
     )
     cze_data = cze_data.dropna(thresh=len(cze_data.columns) - 4)
     cze_data.to_csv("data/cze.csv", index=False)
+
 
 # https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union
 eu = {
@@ -118,6 +122,7 @@ rename_columns = {
     "body_mass_index_bmi_men_kgperm2": "bmi_men",
     "body_mass_index_bmi_women_kgperm2": "bmi_women",
     "alcohol_consumption_per_adult_15plus_litres": "alcohol_adults",
+    "iso3166_1_alpha3": "iso_alpha",
 }
 
 
