@@ -12,11 +12,11 @@ def run():
     countries = gmd.read_countries()
     countries = countries[country_columns].copy()
     countries["is_eu"] = countries["name"].isin(eu.keys())
-    countries["is_oecd"] = countries["g77_and_oecd_countries"] == "oecd"
-    countries["is_g77"] = countries["g77_and_oecd_countries"] == "g77"
-    countries = countries.drop([
-        "g77_and_oecd_countries"
-    ], axis=1)
+    assert countries["is_eu"].sum() == 28, f"Only {countries['is_eu'].sum()} countries in EU."
+    
+    countries["is_oecd"] = countries["name"].isin(oecd)
+    assert countries["is_oecd"].sum() == 36, f"Only {countries['is_oecd'].sum()} countries in OECD: {list(countries.query('is_oecd').index)}"
+
     countries["eu_accession"] = pd.to_datetime(countries["name"].apply(lambda n: eu.get(n, None)))
 
     # Get data points
@@ -53,7 +53,7 @@ def run():
                 "world_4region",
                 "income_groups",
                 "is_eu",
-                "is_oecd","is_g77"
+                "is_oecd"
             ],
             axis=1,
         )
@@ -94,13 +94,52 @@ eu = {
     "United Kingdom": "1973-01-01",
 }
 
+# https://en.wikipedia.org/wiki/OECD
+oecd = [
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Canada",
+    "Chile",
+    "Czech Republic",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Iceland",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Latvia",
+    "Lithuania",
+    "Luxembourg",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Slovak Republic",
+    "Slovenia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Turkey",
+    "United Kingdom",
+    "United States"
+]
+
 country_columns = [
     "name",
     "iso3166_1_alpha3",
     "world_6region",
     "world_4region",
     "income_groups",
-    "g77_and_oecd_countries",
 ]
 
 data_columns = [
