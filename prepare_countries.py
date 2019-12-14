@@ -32,28 +32,29 @@ def run():
 
     gap_data = (
         data.dropna(thresh=len(data.columns) - 4)
-        .sort_values("time", ascending=False)
+        .sort_values("year", ascending=False)
         .groupby("name")
         .first()
-        .drop(["iso3166_1_alpha3", "geo"], axis=1)
+        # .drop(["iso3166_1_alpha3", "geo"], axis=1)
         .reset_index()
     )
     gap_data.to_csv("data/countries.csv", index=False)
 
     cze_data = (
-        data.sort_values("time", ascending=True)[data["name"] == "Czech Republic"]
+        data[data["name"] == "Czech Republic"]
+        .sort_values("year", ascending=True)
         .drop(
             [
                 "area",
                 "eu_accession",
-                "iso3166_1_alpha3",
+                "iso_alpha",
                 "geo",
                 "name",
                 "world_6region",
                 "world_4region",
                 "income_groups",
                 "is_eu",
-                "is_oecd"
+                "is_oecd",
             ],
             axis=1,
         )
@@ -61,6 +62,7 @@ def run():
     )
     cze_data = cze_data.dropna(thresh=len(cze_data.columns) - 4)
     cze_data.to_csv("data/cze.csv", index=False)
+
 
 # https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union
 eu = {
@@ -163,6 +165,8 @@ rename_columns = {
     "body_mass_index_bmi_men_kgperm2": "bmi_men",
     "body_mass_index_bmi_women_kgperm2": "bmi_women",
     "alcohol_consumption_per_adult_15plus_litres": "alcohol_adults",
+    "iso3166_1_alpha3": "iso_alpha",
+    "time": "year",
 }
 
 
