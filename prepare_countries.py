@@ -31,7 +31,8 @@ def run():
     data = data.rename(rename_columns, axis=1)
 
     gap_data = (
-        data.dropna(thresh=len(data.columns) - 5)
+        data[data["year"] < 2019]
+        .dropna(thresh=11)
         .sort_values("year", ascending=False)
         .groupby("name")
         .first()
@@ -39,6 +40,17 @@ def run():
         # .drop(["iso3166_1_alpha3", "geo"], axis=1)
         .reset_index()
     )
+
+    # Rename to "canonical" form
+    gap_data["name"] = gap_data["name"].replace(rename_countries)
+
+    # Limit to UN
+    un_data = pd.read_csv("data_external/un.csv")
+    un_data["un_accession"] = pd.to_datetime(un_data["un_accession"])
+    gap_data = pd.merge(
+        gap_data, un_data, how="right", on="name"
+    )
+
     gap_data.to_csv("data/countries.csv", index=False)
 
     cze_data = (
@@ -170,6 +182,20 @@ rename_columns = {
     "alcohol_consumption_per_adult_15plus_litres": "alcohol_adults",
     "iso3166_1_alpha3": "iso_alpha",
     "time": "year",
+}
+
+rename_countries = {
+    "Lao": "Laos",
+    "Congo, Dem. Rep.": "Democratic Republic of the Congo",
+    "Congo, Rep.": "Congo",
+    "Slovak Republic": "Slovakia",
+    "Czech Republic": "Czechia",
+    "Kyrgyz Republic": "Kyrgyzstan",
+    "Macedonia, FYR": "North Macedonia",
+    "Micronesia, Fed. Sts.": "Federated States of Micronesia",
+    "St. Kitts and Nevis": "Saint Kitts and Nevis",
+    "St. Lucia": "Saint Lucia",
+    "St. Vincent and the Grenadines": "Saint Vincent and the Grenadines"
 }
 
 
