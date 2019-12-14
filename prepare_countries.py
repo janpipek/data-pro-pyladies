@@ -12,12 +12,18 @@ def run():
     countries = gmd.read_countries()
     countries = countries[country_columns].copy()
     countries["is_eu"] = countries["name"].isin(eu.keys())
-    assert countries["is_eu"].sum() == 28, f"Only {countries['is_eu'].sum()} countries in EU."
-    
-    countries["is_oecd"] = countries["name"].isin(oecd)
-    assert countries["is_oecd"].sum() == 36, f"Only {countries['is_oecd'].sum()} countries in OECD: {list(countries.query('is_oecd').index)}"
+    assert (
+        countries["is_eu"].sum() == 28
+    ), f"Only {countries['is_eu'].sum()} countries in EU."
 
-    countries["eu_accession"] = pd.to_datetime(countries["name"].apply(lambda n: eu.get(n, None)))
+    countries["is_oecd"] = countries["name"].isin(oecd)
+    assert (
+        countries["is_oecd"].sum() == 36
+    ), f"Only {countries['is_oecd'].sum()} countries in OECD: {list(countries.query('is_oecd').index)}"
+
+    countries["eu_accession"] = pd.to_datetime(
+        countries["name"].apply(lambda n: eu.get(n, None))
+    )
 
     # Get data points
     data = gmd.read_columns(data_columns)
@@ -32,7 +38,7 @@ def run():
 
     gap_data = (
         data[data["year"] < 2019]
-        .dropna(thresh=11)
+        .dropna(thresh=10)
         .sort_values("year", ascending=False)
         .groupby("name")
         .first()
@@ -47,9 +53,7 @@ def run():
     # Limit to UN
     un_data = pd.read_csv("data_external/un.csv")
     un_data["un_accession"] = pd.to_datetime(un_data["un_accession"])
-    gap_data = pd.merge(
-        gap_data, un_data, how="right", on="name"
-    )
+    gap_data = pd.merge(gap_data, un_data, how="right", on="name")
 
     gap_data.to_csv("data/countries.csv", index=False)
 
@@ -60,7 +64,7 @@ def run():
             [
                 "area",
                 "eu_accession",
-                "iso_alpha",
+                "iso",
                 "geo",
                 "name",
                 "world_6region",
@@ -146,7 +150,7 @@ oecd = [
     "Switzerland",
     "Turkey",
     "United Kingdom",
-    "United States"
+    "United States",
 ]
 
 country_columns = [
@@ -164,23 +168,23 @@ data_columns = [
     "body_mass_index_bmi_men_kgperm2",
     "body_mass_index_bmi_women_kgperm2",
     "car_deaths_per_100000_people",
-    "co2_emissions_tonnes_per_person",
     "food_supply_kilocalories_per_person_and_day",
-    "income_share_of_poorest_10percent",
-    "income_share_of_richest_10percent",
+    "infant_mortality_rate_per_1000_births",
     "life_expectancy_years",
-    "all_causes_deaths_in_newborn_per_1000_births",
+    "life_expectancy_female",
+    "life_expectancy_male",
 ]
 
 rename_columns = {
-    "all_causes_deaths_in_newborn_per_1000_births": "newborn_mortality",
+    "infant_mortality_rate_per_1000_births": "infant_mortality",
     "surface_area_sq_km": "area",
     "food_supply_kilocalories_per_person_and_day": "calories_per_day",
     "total_population_with_projections": "population",
     "body_mass_index_bmi_men_kgperm2": "bmi_men",
     "body_mass_index_bmi_women_kgperm2": "bmi_women",
     "alcohol_consumption_per_adult_15plus_litres": "alcohol_adults",
-    "iso3166_1_alpha3": "iso_alpha",
+    "life_expectancy_years": "life_expectancy",
+    "iso3166_1_alpha3": "iso",
     "time": "year",
 }
 
@@ -195,7 +199,7 @@ rename_countries = {
     "Micronesia, Fed. Sts.": "Federated States of Micronesia",
     "St. Kitts and Nevis": "Saint Kitts and Nevis",
     "St. Lucia": "Saint Lucia",
-    "St. Vincent and the Grenadines": "Saint Vincent and the Grenadines"
+    "St. Vincent and the Grenadines": "Saint Vincent and the Grenadines",
 }
 
 
