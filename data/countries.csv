@@ -1,178 +1,185 @@
-name,iso_alpha,world_6region,world_4region,income_groups,is_eu,is_oecd,eu_accession,geo,year,area,population,alcohol_adults,bmi_men,bmi_women,car_deaths_per_100000_people,co2_emissions_tonnes_per_person,calories_per_day,income_share_of_poorest_10percent,income_share_of_richest_10percent,life_expectancy_years
-Afghanistan,AFG,south_asia,asia,low_income,False,False,,afg,2008,652860.0,29840000.0,0.03,20.62,21.07,,0.1541,2041.0,,,55.21
-Albania,ALB,europe_central_asia,europe,upper_middle_income,False,False,,alb,2008,28750.0,3181000.0,7.29,26.45,25.66,5.978,1.46231,2947.0,3.7,24.5,75.58
-Algeria,DZA,middle_east_north_africa,africa,upper_middle_income,False,False,,dza,2008,2381740.0,34430000.0,0.69,24.6,26.37,,3.16138,3048.0,2.9,26.9,76.12
-Angola,AGO,sub_saharan_africa,africa,upper_middle_income,False,False,,ago,2008,1246700.0,18040000.0,5.57,22.25,23.48,,1.18153,2245.0,2.1,32.3,58.58
-Antigua and Barbuda,ATG,america,americas,high_income,False,False,,atg,2008,440.0,86880.0,8.17,25.77,27.51,,5.1945,2380.0,,,76.62
-Argentina,ARG,america,americas,upper_middle_income,False,False,,arg,2008,2780400.0,39710000.0,9.35,27.5,27.47,8.682,4.68291,3158.0,1.3,31.6,75.52
-Armenia,ARM,europe_central_asia,europe,lower_middle_income,False,False,,arm,2008,29740.0,3079000.0,13.66,25.36,27.13,7.899,1.9115400000000002,2869.0,3.9,23.7,72.81
-Australia,AUS,east_asia_pacific,asia,high_income,False,True,,aus,2008,7741220.0,21510000.0,10.21,27.56,26.88,5.335,18.08149,3199.0,2.8,27.4,81.57
-Austria,AUT,europe_central_asia,europe,high_income,True,True,1995-01-01,aut,2013,83879.0,8441000.0,12.4,26.47,25.09,3.5410000000000004,7.2846,3768.0,3.1,24.2,81.07
-Azerbaijan,AZE,europe_central_asia,europe,upper_middle_income,False,False,,aze,2008,86600.0,8944000.0,13.34,25.65,27.51,5.279,4.02451,3026.0,6.1,17.4,68.4
-Bahamas,BHS,america,americas,high_income,False,False,,bhs,2008,13880.0,333700.0,8.65,27.25,29.14,9.408,4.29091,2585.0,,,73.71
-Bangladesh,BGD,south_asia,asia,low_income,False,False,,bgd,2008,148460.0,145500000.0,0.17,20.4,20.55,4.401,0.33273,2386.0,3.8,28.0,69.55
-Barbados,BRB,america,americas,high_income,False,False,,brb,2008,430.0,272200.0,6.42,26.38,29.22,8.77,5.8445800000000006,2884.0,,,76.48
-Belarus,BLR,europe_central_asia,europe,upper_middle_income,False,False,,blr,2008,207600.0,9681000.0,18.85,26.16,26.64,8.454,6.63755,3200.0,3.7,22.3,70.18
-Belgium,BEL,europe_central_asia,europe,high_income,True,True,1952-07-23,bel,2013,30530.0,10820000.0,10.41,26.76,25.14,5.4270000000000005,8.6957,3733.0,3.3,21.8,80.55
-Belize,BLZ,america,americas,upper_middle_income,False,False,,blz,2008,22970.0,299200.0,5.92,27.02,29.82,23.04,1.42529,2719.0,0.9,42.4,70.87
-Benin,BEN,sub_saharan_africa,africa,low_income,False,False,,ben,2008,114760.0,8356000.0,2.08,22.42,23.74,13.12,0.5072399999999999,2521.0,2.9,31.1,60.78
-Bhutan,BTN,south_asia,asia,lower_middle_income,False,False,,btn,2007,38394.0,688600.0,,22.72,22.75,,0.57117,,2.7,29.4,70.72
-Bolivia,BOL,america,americas,lower_middle_income,False,False,,bol,2008,1098580.0,9618000.0,5.78,24.43,26.86,11.74,1.37897,2146.0,0.9,38.5,71.05
-Bosnia and Herzegovina,BIH,europe_central_asia,europe,upper_middle_income,False,False,,bih,2008,51210.0,3774000.0,9.6,26.61,26.36,6.405,5.35494,3107.0,3.0,25.1,76.32
-Botswana,BWA,sub_saharan_africa,africa,upper_middle_income,False,False,,bwa,2008,581730.0,1955000.0,6.97,22.13,26.09,29.57,2.31548,2184.0,0.8,53.1,52.77
-Brazil,BRA,america,americas,upper_middle_income,False,False,,bra,2008,8515770.0,191500000.0,10.08,25.79,25.99,1.8719999999999999,2.00867,3178.0,1.0,42.5,73.76
-Brunei,BRN,east_asia_pacific,asia,high_income,False,False,,brn,2008,5770.0,384700.0,1.86,24.18,22.89,11.67,24.046879999999998,2908.0,,,76.87
-Bulgaria,BGR,europe_central_asia,europe,upper_middle_income,True,False,2007-01-01,bgr,2013,111000.0,7349000.0,11.4,26.54,25.52,9.662,5.44993,2829.0,1.8,27.5,74.9
-Burkina Faso,BFA,sub_saharan_africa,africa,low_income,False,False,,bfa,2008,274220.0,15520000.0,7.32,21.27,21.63,19.4,0.13055999999999998,2588.0,2.3,33.8,56.85
-Burundi,BDI,sub_saharan_africa,africa,low_income,False,False,,bdi,2006,27830.0,7474000.0,,21.42,21.13,,0.02437,,4.0,28.0,54.32
-Cambodia,KHM,east_asia_pacific,asia,low_income,False,False,,khm,2008,181040.0,13820000.0,4.71,20.8,21.7,1.972,0.28083,2403.0,,,65.17
-Cameroon,CMR,sub_saharan_africa,africa,lower_middle_income,False,False,,cmr,2008,475440.0,18760000.0,7.9,23.68,24.95,20.46,0.29325,2446.0,2.5,33.0,56.18
-Canada,CAN,america,americas,high_income,False,True,,can,2008,9984670.0,33330000.0,10.2,27.45,26.7,6.332999999999999,16.79499,3465.0,2.7,26.0,80.82
-Cape Verde,CPV,sub_saharan_africa,africa,lower_middle_income,False,False,,cpv,2008,4030.0,487400.0,4.98,23.52,24.96,,0.95455,2540.0,2.0,37.1,71.99
-Central African Republic,CAF,sub_saharan_africa,africa,low_income,False,False,,caf,2008,622980.0,4238000.0,3.17,20.99,22.4,,0.05823,2133.0,1.2,46.2,46.34
-Chad,TCD,sub_saharan_africa,africa,low_income,False,False,,tcd,2008,1284000.0,10650000.0,4.39,21.49,21.95,,0.04578,2027.0,2.5,30.7,55.18
-Chile,CHL,america,americas,high_income,False,True,,chl,2008,756096.0,16800000.0,8.81,27.02,27.93,3.3289999999999997,4.31229,2943.0,1.7,38.4,79.2
-China,CHN,east_asia_pacific,asia,upper_middle_income,False,False,,chn,2008,9562910.8,1328000000.0,5.56,22.92,22.91,3.59,5.61811,2977.0,2.0,31.8,73.75
-Colombia,COL,america,americas,upper_middle_income,False,False,,col,2008,1141750.0,45010000.0,6.59,24.94,26.23,2.1830000000000003,1.5164,2807.0,0.9,43.7,76.03
-Comoros,COM,sub_saharan_africa,africa,low_income,False,False,,com,2004,1861.0,625900.0,,21.87,22.2,,0.23945999999999998,,1.5,48.1,63.97
-"Congo, Dem. Rep.",COD,sub_saharan_africa,africa,low_income,False,False,,cod,2004,2344860.0,55750000.0,,19.79,21.12,,0.022609999999999998,,2.2,32.4,54.87
-"Congo, Rep.",COG,sub_saharan_africa,africa,lower_middle_income,False,False,,cog,2005,342000.0,3533000.0,,21.64,22.68,,0.26431,2043.0,2.0,36.9,56.6
-Costa Rica,CRI,america,americas,upper_middle_income,False,False,,cri,2008,51100.0,4522000.0,5.81,26.48,27.03,6.319,1.8353599999999999,2844.0,1.5,37.7,80.15
-Cote d'Ivoire,CIV,sub_saharan_africa,africa,lower_middle_income,False,False,,civ,2008,322460.0,18990000.0,6.47,22.56,23.82,,0.34755,2739.0,1.8,32.6,55.17
-Croatia,HRV,europe_central_asia,europe,high_income,True,False,2013-01-01,hrv,2013,56590.0,4379000.0,15.0,26.6,25.18,6.434,4.10263,3059.0,2.6,23.7,77.08
-Cuba,CUB,america,americas,upper_middle_income,False,False,,cub,2008,109890.0,11270000.0,5.12,25.07,26.58,2.63,2.69179,3120.0,,,78.13
-Cyprus,CYP,europe_central_asia,europe,high_income,True,False,2004-05-01,cyp,2013,9250.0,1141000.0,8.84,27.42,25.93,6.419,5.19966,2649.0,3.2,30.8,80.64
-Czech Republic,CZE,europe_central_asia,europe,high_income,True,True,2004-05-01,cze,2013,78870.0,10590000.0,16.47,27.91,26.51,5.72,9.313839999999999,3256.0,3.8,22.6,78.27
-Denmark,DNK,europe_central_asia,europe,high_income,True,True,1973-01-01,dnk,2013,42916.0,5611000.0,12.02,26.13,25.11,3.4810000000000003,6.83471,3367.0,3.6,23.7,80.39
-Djibouti,DJI,middle_east_north_africa,africa,lower_middle_income,False,False,,dji,2008,23200.0,855600.0,1.87,23.38,24.38,,0.60602,2447.0,2.3,30.8,62.91
-Dominica,DMA,america,americas,upper_middle_income,False,False,,dma,2008,750.0,68160.0,8.68,24.57,28.78,,1.85739,3021.0,,,73.46
-Dominican Republic,DOM,america,americas,upper_middle_income,False,False,,dom,2008,48670.0,9665000.0,6.28,25.2,26.87,17.05,2.1492400000000003,2352.0,1.7,37.5,74.22
-Ecuador,ECU,america,americas,upper_middle_income,False,False,,ecu,2008,256370.0,14060000.0,9.43,25.59,27.06,7.04,2.34423,2297.0,1.3,38.1,76.28
-Egypt,EGY,middle_east_north_africa,africa,lower_middle_income,False,False,,egy,2008,1001450.0,78320000.0,0.32,26.73,30.1,10.7,2.45308,3490.0,3.9,27.0,70.54
-El Salvador,SLV,america,americas,lower_middle_income,False,False,,slv,2008,21040.0,6130000.0,3.99,26.37,27.84,32.75,1.07124,2574.0,1.7,36.1,73.77
-Estonia,EST,europe_central_asia,europe,high_income,True,True,2004-05-01,est,2013,45230.0,1339000.0,17.24,26.26,25.19,5.896,15.053020000000002,3253.0,2.4,26.6,77.13
-Ethiopia,ETH,sub_saharan_africa,africa,low_income,False,False,,eth,2008,1104300.0,79450000.0,4.1,20.25,20.71,19.05,0.07908,2018.0,4.1,25.6,59.39
-Fiji,FJI,east_asia_pacific,asia,upper_middle_income,False,False,,fji,2008,18270.0,843700.0,2.76,26.53,29.34,5.625,1.0609600000000001,2948.0,2.7,32.9,64.9
-Finland,FIN,europe_central_asia,europe,high_income,True,True,1995-01-01,fin,2013,338420.0,5419000.0,13.1,26.73,25.58,3.615,8.68554,3368.0,3.8,22.2,80.9
-France,FRA,europe_central_asia,europe,high_income,True,True,1952-07-23,fra,2013,549087.0,63780000.0,12.48,25.85,24.83,2.491,5.2268,3482.0,3.2,26.4,81.95
-Gabon,GAB,sub_saharan_africa,africa,upper_middle_income,False,False,,gab,2008,267670.0,1450000.0,9.46,24.08,25.95,,2.7161,2653.0,2.3,33.1,61.47
-Gambia,GMB,sub_saharan_africa,africa,low_income,False,False,,gmb,2008,11300.0,1636000.0,3.58,21.65,24.82,,0.23084000000000002,2589.0,1.8,36.9,64.93
-Georgia,GEO,europe_central_asia,europe,lower_middle_income,False,False,,geo,2008,69700.0,4394000.0,6.66,25.55,26.45,8.737,1.1903700000000002,2975.0,2.2,28.6,72.34
-Germany,DEU,europe_central_asia,europe,high_income,True,True,1952-07-23,deu,2013,357340.0,81800000.0,12.14,27.17,25.74,3.28,9.31903,3499.0,3.3,24.6,80.54
-Ghana,GHA,sub_saharan_africa,africa,lower_middle_income,False,False,,gha,2008,238540.0,23260000.0,3.11,22.84,24.33,13.86,0.39221999999999996,2950.0,1.9,32.7,61.27
-Greece,GRC,europe_central_asia,europe,high_income,True,True,1981-01-01,grc,2013,131960.0,11450000.0,11.01,26.34,24.92,9.175,6.13731,3400.0,2.0,26.4,80.82
-Grenada,GRD,america,americas,upper_middle_income,False,False,,grd,2008,340.0,103700.0,10.71,25.18,27.32,4.577,2.43455,2426.0,,,71.37
-Guatemala,GTM,america,americas,lower_middle_income,False,False,,gtm,2008,108890.0,13690000.0,7.1,25.3,26.84,0.862,0.81606,2378.0,1.1,43.2,70.8
-Guinea,GIN,sub_saharan_africa,africa,low_income,False,False,,gin,2008,245860.0,9559000.0,0.79,22.52,22.45,,0.21206999999999998,2534.0,2.5,30.1,57.16
-Guinea-Bissau,GNB,sub_saharan_africa,africa,low_income,False,False,,gnb,2008,36130.0,1454000.0,3.9,21.64,22.93,,0.15353,2304.0,2.9,28.1,54.51
-Guyana,GUY,america,americas,lower_middle_income,False,False,,guy,2008,214970.0,751600.0,8.7,23.68,26.47,7.391,2.08823,2599.0,1.5,34.1,65.18
-Haiti,HTI,america,americas,low_income,False,False,,hti,2008,27750.0,9736000.0,5.92,23.66,23.28,1.005,0.24711,2014.0,,,59.3
-Honduras,HND,america,americas,lower_middle_income,False,False,,hnd,2008,112490.0,7303000.0,4.43,25.11,26.73,11.45,1.10159,2603.0,0.9,43.0,71.27
-"Hong Kong, China",HKG,east_asia_pacific,asia,high_income,False,False,,hkg,2007,1100.0,6873000.0,,24.94,23.65,0.5720000000000001,6.337940000000001,3246.0,,,81.99
-Hungary,HUN,europe_central_asia,europe,upper_middle_income,True,True,2004-05-01,hun,2013,93030.0,9934000.0,16.12,27.12,25.98,5.234,4.2819,3037.0,2.9,24.4,75.46
-Iceland,ISL,europe_central_asia,europe,high_income,False,True,,isl,2008,103000.0,310700.0,7.38,27.21,26.03,3.435,6.81774,3428.0,3.6,27.0,81.78
-India,IND,south_asia,asia,lower_middle_income,False,False,,ind,2008,3287260.0,1191000000.0,2.69,20.96,21.31,3.034,1.3101,2427.0,0.0,0.0,65.39
-Indonesia,IDN,east_asia_pacific,asia,lower_middle_income,False,False,,idn,2008,1910930.0,235000000.0,0.56,21.86,22.99,1.232,1.7639,2544.0,0.0,0.0,69.34
-Iran,IRN,middle_east_north_africa,asia,upper_middle_income,False,False,,irn,2008,1745150.0,72290000.0,1.03,25.31,27.24,26.73,7.43467,3012.0,2.0,34.0,73.78
-Iraq,IRQ,middle_east_north_africa,asia,upper_middle_income,False,False,,irq,2008,438320.0,29820000.0,0.47,26.71,28.41,,3.19975,2358.0,3.9,23.6,66.18
-Ireland,IRL,europe_central_asia,europe,high_income,True,True,1973-01-01,irl,2013,70280.0,4631000.0,14.92,27.65,26.62,3.7680000000000002,7.444489999999999,3600.0,2.8,26.0,80.96
-Israel,ISR,middle_east_north_africa,asia,high_income,False,True,,isr,2008,22070.0,7092000.0,2.52,27.13,27.3,4.5889999999999995,9.61828,3523.0,1.8,29.4,80.52
-Italy,ITA,europe_central_asia,europe,high_income,True,True,1952-07-23,ita,2013,301340.0,61090000.0,9.72,26.48,24.79,3.778,5.787319999999999,3579.0,2.0,25.9,82.15
-Jamaica,JAM,america,americas,upper_middle_income,False,False,,jam,2008,10990.0,2720000.0,5.17,24.0,27.23,7.02,3.65895,2747.0,2.1,35.8,74.65
-Japan,JPN,east_asia_pacific,asia,high_income,False,True,,jpn,2008,377940.0,126500000.0,7.79,23.5,21.87,1.381,9.4137,2734.0,2.7,24.7,82.5
-Jordan,JOR,middle_east_north_africa,asia,upper_middle_income,False,False,,jor,2008,88780.0,5849000.0,0.65,27.47,29.22,27.84,3.28965,3072.0,3.6,26.6,74.85
-Kazakhstan,KAZ,europe_central_asia,asia,upper_middle_income,False,False,,kaz,2008,2724902.0,15660000.0,11.1,26.29,26.65,,14.54936,3186.0,4.0,23.6,66.81
-Kenya,KEN,sub_saharan_africa,africa,low_income,False,False,,ken,2008,580370.0,38460000.0,3.88,21.59,23.06,18.79,0.26161999999999996,2106.0,1.8,36.8,60.65
-Kiribati,KIR,east_asia_pacific,asia,lower_middle_income,False,False,,kir,2008,810.0,96530.0,2.7,29.24,31.31,3.6719999999999997,0.55877,2881.0,2.6,29.3,60.52
-Kuwait,KWT,middle_east_north_africa,asia,high_income,False,False,,kwt,2008,17820.0,2548000.0,0.1,29.17,31.16,0.693,31.19177,3512.0,,,77.19
-Kyrgyz Republic,KGZ,europe_central_asia,asia,low_income,False,False,,kgz,2008,199950.0,5204000.0,4.72,24.75,25.68,10.7,1.45571,2679.0,3.5,25.3,67.39
-Lao,LAO,east_asia_pacific,asia,lower_middle_income,False,False,,lao,2008,236800.0,6022000.0,6.99,21.08,22.03,,0.15632000000000001,2246.0,3.3,29.3,62.34
-Latvia,LVA,europe_central_asia,europe,high_income,True,True,2004-05-01,lva,2013,64490.0,2226000.0,13.45,26.46,25.62,8.275,3.46973,3174.0,2.3,26.8,74.09
-Lebanon,LBN,middle_east_north_africa,asia,upper_middle_income,False,False,,lbn,2008,10450.0,4167000.0,2.3,27.2,27.7,,4.19055,3127.0,,,79.14
-Lesotho,LSO,sub_saharan_africa,africa,lower_middle_income,False,False,,lso,2008,30360.0,2127000.0,5.56,21.9,26.78,6.09,1.0634700000000001,2558.0,0.9,38.3,44.32
-Liberia,LBR,sub_saharan_africa,africa,low_income,False,False,,lbr,2008,111370.0,3658000.0,5.07,21.9,23.22,,0.15417,2227.0,2.4,28.3,59.76
-Lithuania,LTU,europe_central_asia,europe,high_income,True,True,2004-05-01,ltu,2013,65300.0,3278000.0,16.3,26.86,26.01,8.09,4.21713,3417.0,2.5,27.1,74.05
-Luxembourg,LUX,europe_central_asia,europe,high_income,True,True,1952-07-23,lux,2013,2590.0,530000.0,12.84,27.43,26.09,5.971,18.4521,3539.0,3.1,24.2,81.92
-"Macedonia, FYR",MKD,europe_central_asia,europe,upper_middle_income,False,False,,mkd,2008,25710.0,2053000.0,8.94,26.34,25.38,2.6919999999999997,4.54788,2960.0,,,73.54
-Madagascar,MDG,sub_saharan_africa,africa,low_income,False,False,,mdg,2008,587040.0,19550000.0,1.32,21.4,20.74,,0.09444,2061.0,2.7,32.4,60.76
-Malawi,MWI,sub_saharan_africa,africa,low_income,False,False,,mwi,2008,118480.0,14010000.0,1.44,22.03,22.91,11.88,0.07400000000000001,2318.0,2.9,32.8,50.6
-Malaysia,MYS,east_asia_pacific,asia,upper_middle_income,False,False,,mys,2008,330800.0,27500000.0,0.87,24.73,25.45,6.127999999999999,7.52578,2787.0,1.8,34.2,74.25
-Maldives,MDV,south_asia,asia,upper_middle_income,False,False,,mdv,2005,300.0,295200.0,,22.79,25.95,29.27,1.8862,2459.0,2.7,34.8,75.71
-Mali,MLI,sub_saharan_africa,africa,low_income,False,False,,mli,2008,1240190.0,14460000.0,0.99,21.79,23.08,,0.07574,2777.0,2.5,30.2,58.37
-Malta,MLT,europe_central_asia,europe,high_income,True,False,2004-05-01,mlt,2013,320.0,420600.0,4.1,27.68,27.05,2.228,5.52763,3378.0,3.5,23.1,80.99
-Mauritania,MRT,sub_saharan_africa,africa,lower_middle_income,False,False,,mrt,2008,1030700.0,3295000.0,0.11,22.62,26.26,,0.5682,2772.0,2.6,26.2,67.38
-Mauritius,MUS,sub_saharan_africa,africa,upper_middle_income,False,False,,mus,2008,2040.0,1284000.0,3.53,25.16,26.1,2.988,3.0418,3001.0,3.1,28.7,72.97
-Mexico,MEX,america,americas,upper_middle_income,False,True,,mex,2008,1964380.0,110600000.0,8.55,27.42,28.74,9.468,4.33964,3079.0,2.0,35.2,75.46
-"Micronesia, Fed. Sts.",FSM,east_asia_pacific,asia,lower_middle_income,False,False,,fsm,2005,700.0,109400.0,5.5,27.77,30.77,,1.13951,,2.2,32.5,65.62
-Moldova,MDA,europe_central_asia,europe,lower_middle_income,False,False,,mda,2008,33850.0,3635000.0,23.01,24.24,27.06,5.529,1.16215,2788.0,2.9,27.1,69.58
-Mongolia,MNG,east_asia_pacific,asia,lower_middle_income,False,False,,mng,2008,1564120.0,2667000.0,3.41,24.88,25.71,13.82,4.58073,2375.0,3.0,27.8,65.64
-Montenegro,MNE,europe_central_asia,europe,upper_middle_income,False,False,,mne,2008,13810.0,629200.0,,26.55,25.7,15.38,4.4272800000000005,3482.0,3.5,24.5,76.0
-Morocco,MAR,middle_east_north_africa,africa,lower_middle_income,False,False,,mar,2008,446550.0,31320000.0,1.24,25.63,26.22,15.25,1.67422,3271.0,2.6,33.1,73.01
-Mozambique,MOZ,sub_saharan_africa,africa,low_income,False,False,,moz,2008,799380.0,22330000.0,2.27,21.94,23.32,13.72,0.09919,2164.0,1.9,36.8,53.62
-Myanmar,MMR,east_asia_pacific,asia,low_income,False,False,,mmr,2008,676590.0,47250000.0,0.58,21.45,22.48,12.0,0.1981,2372.0,,,59.78
-Namibia,NAM,sub_saharan_africa,africa,upper_middle_income,False,False,,nam,2008,824290.0,2200000.0,12.09,22.65,25.15,,1.579,2120.0,1.1,54.8,55.63
-Nepal,NPL,south_asia,asia,low_income,False,False,,npl,2008,147180.0,28910000.0,2.42,20.76,20.73,,0.12922,2490.0,2.7,36.9,67.33
-Netherlands,NLD,europe_central_asia,europe,high_income,True,True,1952-07-23,nld,2013,41540.0,16760000.0,9.75,26.02,25.47,2.237,10.28847,3228.0,3.6,22.7,81.29
-New Zealand,NZL,east_asia_pacific,asia,high_income,False,True,,nzl,2008,267710.0,4278000.0,9.99,27.77,27.37,7.6,7.994280000000001,3205.0,,,80.33
-Nicaragua,NIC,america,americas,lower_middle_income,False,False,,nic,2008,130370.0,5636000.0,5.21,25.77,27.57,7.787999999999999,0.7904899999999999,2467.0,1.9,39.6,77.29
-Niger,NER,sub_saharan_africa,africa,low_income,False,False,,ner,2008,1267000.0,14450000.0,0.34,21.22,21.96,30.82,0.05322,2520.0,3.2,31.4,57.57
-Nigeria,NGA,sub_saharan_africa,africa,lower_middle_income,False,False,,nga,2008,923770.0,150700000.0,12.72,23.03,23.67,,0.63951,2723.0,2.1,29.8,59.02
-North Korea,PRK,east_asia_pacific,asia,low_income,False,False,,prk,2005,120540.0,23750000.0,18.28,22.01,21.26,,3.16151,2180.0,,,69.76
-Norway,NOR,europe_central_asia,europe,high_income,False,True,,nor,2008,385178.0,4779000.0,8.35,26.93,25.74,3.125,11.67176,3478.0,3.5,21.8,80.69
-Oman,OMN,middle_east_north_africa,asia,high_income,False,False,,omn,2008,309500.0,2637000.0,0.92,26.24,26.67,,15.478679999999999,2944.0,,,76.42
-Pakistan,PAK,south_asia,asia,lower_middle_income,False,False,,pak,2008,796100.0,167400000.0,0.05,22.3,23.45,,0.97205,2422.0,4.0,27.1,64.68
-Palestine,PSE,middle_east_north_africa,asia,lower_middle_income,False,False,,pse,2007,6020.0,3728000.0,,26.55,28.96,,0.61966,,2.8,27.6,71.98
-Panama,PAN,america,americas,upper_middle_income,False,False,,pan,2008,75420.0,3406000.0,7.3,26.27,27.68,7.986000000000001,2.09721,2523.0,0.9,41.1,77.64
-Papua New Guinea,PNG,east_asia_pacific,asia,lower_middle_income,False,False,,png,1996,462840.0,4841000.0,,23.87,23.85,,0.43588000000000005,,0.5,40.7,57.22
-Paraguay,PRY,america,americas,lower_middle_income,False,False,,pry,2008,406750.0,6230000.0,7.91,25.54,25.91,3.247,0.7361800000000001,2535.0,1.5,40.1,74.13
-Peru,PER,america,americas,upper_middle_income,False,False,,per,2008,1285220.0,28460000.0,6.53,24.77,25.99,4.446000000000001,1.432,2525.0,1.3,35.8,77.91
-Philippines,PHL,east_asia_pacific,asia,lower_middle_income,False,False,,phl,2008,300000.0,90170000.0,6.08,22.87,23.47,2.5069999999999997,0.86895,2583.0,,,68.67
-Poland,POL,europe_central_asia,europe,high_income,True,True,2004-05-01,pol,2008,312680.0,38220000.0,14.43,26.67,25.92,7.675,8.21508,3346.0,,,75.61
-Portugal,PRT,europe_central_asia,europe,high_income,True,True,1986-01-01,prt,2013,92220.0,10700000.0,13.89,26.68,26.18,5.078,4.31499,3477.0,2.1,27.5,80.52
-Romania,ROU,europe_central_asia,europe,upper_middle_income,True,False,2007-01-01,rou,2013,238390.0,21340000.0,16.15,25.41,25.22,8.808,3.53522,3358.0,1.6,25.4,74.77
-Russia,RUS,europe_central_asia,europe,high_income,False,False,,rus,2008,17098240.0,143200000.0,16.23,26.01,27.21,14.38,11.98589,3312.0,2.4,32.5,67.99
-Rwanda,RWA,sub_saharan_africa,africa,low_income,False,False,,rwa,2008,26340.0,10000000.0,9.99,22.55,22.07,6.416,0.0559,2101.0,1.7,43.9,62.47
-Samoa,WSM,east_asia_pacific,asia,lower_middle_income,False,False,,wsm,2008,2840.0,181800.0,4.51,30.42,33.66,,0.97906,2914.0,2.7,34.1,71.43
-Sao Tome and Principe,STP,sub_saharan_africa,africa,lower_middle_income,False,False,,stp,2008,960.0,159900.0,8.45,23.51,24.88,,0.5053,2466.0,3.3,24.5,67.7
-Saudi Arabia,SAU,middle_east_north_africa,asia,high_income,False,False,,sau,2008,2149690.0,26170000.0,0.34,27.88,29.6,,16.583,3014.0,,,74.69
-Senegal,SEN,sub_saharan_africa,africa,lower_middle_income,False,False,,sen,2008,196710.0,11790000.0,0.51,21.93,24.31,24.75,0.41736,2439.0,2.4,30.0,63.17
-Serbia,SRB,europe_central_asia,europe,upper_middle_income,False,False,,srb,2008,88360.0,9841000.0,12.21,26.51,25.67,5.985,5.725230000000001,2722.0,,,74.23
-Sierra Leone,SLE,sub_saharan_africa,africa,low_income,False,False,,sle,2008,72300.0,5612000.0,9.48,22.53,23.93,21.32,0.10765,2197.0,2.7,32.0,53.83
-Slovak Republic,SVK,europe_central_asia,europe,high_income,True,True,2004-05-01,svk,2013,49036.0,5489000.0,13.31,26.93,26.32,6.746,6.0995800000000004,2944.0,3.0,22.1,76.47
-Slovenia,SVN,europe_central_asia,europe,high_income,True,True,2004-05-01,svn,2013,20270.0,2045000.0,14.94,27.44,26.58,5.315,6.84905,3168.0,3.6,21.4,80.26
-Solomon Islands,SLB,east_asia_pacific,asia,lower_middle_income,False,False,,slb,2008,28900.0,510200.0,1.37,27.16,28.88,,0.37071,2480.0,1.9,35.7,61.39
-South Africa,ZAF,sub_saharan_africa,africa,upper_middle_income,False,False,,zaf,2008,1219090.0,49320000.0,10.16,26.86,29.48,8.907,9.85422,2924.0,1.0,51.3,52.15
-South Korea,KOR,east_asia_pacific,asia,high_income,False,True,,kor,2008,99830.0,47730000.0,19.15,23.99,23.33,4.319,10.31289,3187.0,2.6,24.5,79.55
-Spain,ESP,europe_central_asia,europe,high_income,True,True,1986-01-01,esp,2013,505940.0,47040000.0,11.83,27.5,26.31,5.146,5.07596,3174.0,1.9,25.9,82.6
-Sri Lanka,LKA,south_asia,asia,lower_middle_income,False,False,,lka,2008,65610.0,20470000.0,0.81,21.97,23.12,,0.61203,2443.0,2.9,32.8,74.05
-St. Lucia,LCA,america,americas,upper_middle_income,False,False,,lca,2008,620.0,170600.0,12.05,24.65,27.22,15.9,2.34036,2555.0,2.0,32.5,75.19
-St. Vincent and the Grenadines,VCT,america,americas,upper_middle_income,False,False,,vct,2008,390.0,109200.0,4.99,25.44,27.52,3.1239999999999997,2.0826599999999997,2868.0,,,71.6
-Sudan,SDN,sub_saharan_africa,africa,lower_middle_income,False,False,,sdn,2008,2505810.0,32940000.0,2.56,22.4,23.16,11.79,0.45253999999999994,2344.0,,,65.89
-Suriname,SUR,america,americas,upper_middle_income,False,False,,sur,2008,163820.0,515100.0,6.56,25.5,27.75,8.573,3.7727199999999996,2645.0,0.0,42.7,69.84
-Swaziland,SWZ,sub_saharan_africa,africa,lower_middle_income,False,False,,swz,2008,17360.0,1150000.0,5.05,23.17,28.45,20.15,0.9461,2257.0,1.8,44.1,44.5
-Sweden,SWE,europe_central_asia,europe,high_income,True,True,1995-01-01,swe,2013,447420.0,9546000.0,9.5,26.38,25.15,2.737,4.6642,3179.0,2.9,22.2,81.89
-Switzerland,CHE,europe_central_asia,europe,high_income,False,True,,che,2008,41290.0,7573000.0,11.41,26.2,24.07,2.342,5.28412,3445.0,3.0,26.3,81.83
-Syria,SYR,middle_east_north_africa,asia,lower_middle_income,False,False,,syr,2004,185180.0,18000000.0,,26.59,28.48,,2.8699,,3.2,28.7,74.56
-Tajikistan,TJK,europe_central_asia,asia,low_income,False,False,,tjk,2008,142550.0,6691000.0,3.39,23.78,23.85,9.448,0.39731,2082.0,2.6,25.1,68.79
-Tanzania,TZA,sub_saharan_africa,africa,low_income,False,False,,tza,2008,947300.0,42270000.0,7.86,22.48,23.08,16.55,0.14195,2132.0,2.5,31.9,57.98
-Thailand,THA,east_asia_pacific,asia,upper_middle_income,False,False,,tha,2008,513120.0,68270000.0,7.08,23.01,24.39,2.101,3.7935300000000005,2757.0,2.7,31.1,75.6
-Timor-Leste,TLS,east_asia_pacific,asia,lower_middle_income,False,False,,tls,2008,14870.0,1080000.0,0.74,20.59,21.51,,0.18707000000000001,2061.0,4.1,22.9,70.04
-Togo,TGO,sub_saharan_africa,africa,low_income,False,False,,tgo,2008,56790.0,5777000.0,1.92,21.88,22.74,,0.27316,2316.0,2.5,32.6,57.39
-Tonga,TON,east_asia_pacific,asia,upper_middle_income,False,False,,ton,2001,750.0,98480.0,,29.94,32.67,,0.8924799999999999,,2.4,28.3,68.89
-Trinidad and Tobago,TTO,america,americas,high_income,False,False,,tto,2008,5130.0,1331000.0,6.16,26.4,28.28,9.447000000000001,33.743590000000005,2828.0,2.1,29.9,72.31
-Tunisia,TUN,middle_east_north_africa,africa,upper_middle_income,False,False,,tun,2008,163610.0,10250000.0,1.05,25.16,27.94,19.29,2.38539,3302.0,2.5,29.1,76.6
-Turkey,TUR,europe_central_asia,europe,upper_middle_income,False,True,,tur,2008,785350.0,70920000.0,3.02,26.7,28.25,7.189,4.03151,3595.0,2.1,29.4,78.76
-Turkmenistan,TKM,europe_central_asia,asia,upper_middle_income,False,False,,tkm,2008,488100.0,4918000.0,5.0,25.25,24.66,,11.51416,2872.0,2.6,31.7,66.87
-Uganda,UGA,sub_saharan_africa,africa,low_income,False,False,,uga,2008,241550.0,31340000.0,16.4,22.36,22.48,13.69,0.10075,2177.0,2.4,34.5,55.11
-Ukraine,UKR,europe_central_asia,europe,lower_middle_income,False,False,,ukr,2008,603550.0,45990000.0,17.47,25.42,26.23,8.771,6.7341,3297.0,4.1,21.9,67.97
-United Arab Emirates,ARE,middle_east_north_africa,asia,high_income,False,False,,are,2008,83600.0,6207000.0,0.52,28.05,29.61,31.85,22.82395,3149.0,,,76.75
-United Kingdom,GBR,europe_central_asia,europe,high_income,True,True,1973-01-01,gbr,2013,243610.0,63180000.0,13.24,27.39,26.94,3.377,7.08915,3424.0,2.9,25.3,80.74
-United States,USA,america,americas,high_income,False,True,,usa,2008,9831510.0,305000000.0,9.7,28.46,28.34,9.523,18.505570000000002,3700.0,1.7,30.5,78.33
-Uruguay,URY,america,americas,high_income,False,False,,ury,2008,176220.0,3346000.0,8.99,26.39,26.59,2.5660000000000003,2.4666799999999998,2958.0,2.0,34.4,76.1
-Uzbekistan,UZB,europe_central_asia,asia,lower_middle_income,False,False,,uzb,2008,447400.0,26810000.0,3.61,25.32,25.43,6.417999999999999,4.47039,2597.0,2.9,28.3,68.01
-Vanuatu,VUT,east_asia_pacific,asia,lower_middle_income,False,False,,vut,2008,12190.0,228000.0,0.96,26.79,28.46,,0.4231,2864.0,,,62.66
-Venezuela,VEN,america,americas,upper_middle_income,False,False,,ven,2008,912050.0,28060000.0,7.6,27.45,28.13,7.332000000000001,6.36474,2808.0,0.5,34.1,74.89
-Vietnam,VNM,east_asia_pacific,asia,lower_middle_income,False,False,,vnm,2008,331051.0,85950000.0,3.91,20.92,21.07,,1.36081,2615.0,3.0,28.0,72.53
-Yemen,YEM,middle_east_north_africa,asia,lower_middle_income,False,False,,yem,2008,527970.0,22630000.0,0.2,24.44,26.11,,0.99924,2134.0,3.3,28.6,66.4
-Zambia,ZMB,sub_saharan_africa,africa,lower_middle_income,False,False,,zmb,2008,752610.0,12380000.0,3.56,20.68,23.05,11.26,0.16594,1801.0,1.3,43.2,49.4
-Zimbabwe,ZWE,sub_saharan_africa,africa,low_income,False,False,,zwe,2008,390760.0,12450000.0,4.96,22.03,24.65,20.85,0.5731,2094.0,,,46.71
+name,iso_alpha,world_6region,world_4region,income_groups,is_eu,is_oecd,eu_accession,year,area,population,alcohol_adults,bmi_men,bmi_women,car_deaths_per_100000_people,co2_emissions_tonnes_per_person,calories_per_day,income_share_of_poorest_10percent,income_share_of_richest_10percent,life_expectancy_years,newborn_mortality
+Afghanistan,AFG,south_asia,asia,low_income,False,False,,2008,652860.0,29840000.0,0.03,20.62,21.07,,0.1541,2041.0,,,55.21,49.76
+Albania,ALB,europe_central_asia,europe,upper_middle_income,False,False,,2008,28750.0,3181000.0,7.29,26.45,25.66,5.978,1.46231,2947.0,3.7,24.5,75.58,3.5810000000000004
+Algeria,DZA,middle_east_north_africa,africa,upper_middle_income,False,False,,2008,2381740.0,34430000.0,0.69,24.6,26.37,,3.16138,3048.0,2.9,26.9,76.12,24.16
+Angola,AGO,sub_saharan_africa,africa,upper_middle_income,False,False,,2008,1246700.0,18040000.0,5.57,22.25,23.48,,1.18153,2245.0,2.1,32.3,58.58,46.92
+Antigua and Barbuda,ATG,america,americas,high_income,False,False,,2008,440.0,86880.0,8.17,25.77,27.51,,5.1945,2380.0,,,76.62,
+Argentina,ARG,america,americas,upper_middle_income,False,False,,2008,2780400.0,39710000.0,9.35,27.5,27.47,8.682,4.68291,3158.0,1.3,31.6,75.52,8.856
+Armenia,ARM,europe_central_asia,europe,lower_middle_income,False,False,,2008,29740.0,3079000.0,13.66,25.36,27.13,7.899,1.9115400000000002,2869.0,3.9,23.7,72.81,13.78
+Australia,AUS,east_asia_pacific,asia,high_income,False,True,,2008,7741220.0,21510000.0,10.21,27.56,26.88,5.335,18.08149,3199.0,2.8,27.4,81.57,2.997
+Austria,AUT,europe_central_asia,europe,high_income,True,True,1995-01-01,2013,83879.0,8441000.0,12.4,26.47,25.09,3.5410000000000004,7.2846,3768.0,3.1,24.2,81.07,2.676
+Azerbaijan,AZE,europe_central_asia,europe,upper_middle_income,False,False,,2008,86600.0,8944000.0,13.34,25.65,27.51,5.279,4.02451,3026.0,6.1,17.4,68.4,18.79
+Bahamas,BHS,america,americas,high_income,False,False,,2008,13880.0,333700.0,8.65,27.25,29.14,9.408,4.29091,2585.0,,,73.71,5.4910000000000005
+Bahrain,BHR,middle_east_north_africa,asia,high_income,False,False,,2008,760.0,1052000.0,4.19,27.84,28.79,,26.708209999999998,,,,75.19,5.796
+Bangladesh,BGD,south_asia,asia,low_income,False,False,,2008,148460.0,145500000.0,0.17,20.4,20.55,4.401,0.33273,2386.0,3.8,28.0,69.55,33.21
+Barbados,BRB,america,americas,high_income,False,False,,2008,430.0,272200.0,6.42,26.38,29.22,8.77,5.8445800000000006,2884.0,,,76.48,7.345
+Belarus,BLR,europe_central_asia,europe,upper_middle_income,False,False,,2008,207600.0,9681000.0,18.85,26.16,26.64,8.454,6.63755,3200.0,3.7,22.3,70.18,6.511
+Belgium,BEL,europe_central_asia,europe,high_income,True,True,1952-07-23,2013,30530.0,10820000.0,10.41,26.76,25.14,5.4270000000000005,8.6957,3733.0,3.3,21.8,80.55,2.43
+Belize,BLZ,america,americas,upper_middle_income,False,False,,2008,22970.0,299200.0,5.92,27.02,29.82,23.04,1.42529,2719.0,0.9,42.4,70.87,8.339
+Benin,BEN,sub_saharan_africa,africa,low_income,False,False,,2008,114760.0,8356000.0,2.08,22.42,23.74,13.12,0.5072399999999999,2521.0,2.9,31.1,60.78,32.63
+Bhutan,BTN,south_asia,asia,lower_middle_income,False,False,,2008,38394.0,701400.0,0.54,22.82,22.88,,0.6016199999999999,,2.7,29.4,71.28,35.47
+Bolivia,BOL,america,americas,lower_middle_income,False,False,,2008,1098580.0,9618000.0,5.78,24.43,26.86,11.74,1.37897,2146.0,0.9,38.5,71.05,24.76
+Bosnia and Herzegovina,BIH,europe_central_asia,europe,upper_middle_income,False,False,,2008,51210.0,3774000.0,9.6,26.61,26.36,6.405,5.35494,3107.0,3.0,25.1,76.32,7.421
+Botswana,BWA,sub_saharan_africa,africa,upper_middle_income,False,False,,2008,581730.0,1955000.0,6.97,22.13,26.09,29.57,2.31548,2184.0,0.8,53.1,52.77,15.69
+Brazil,BRA,america,americas,upper_middle_income,False,False,,2008,8515770.0,191500000.0,10.08,25.79,25.99,1.8719999999999999,2.00867,3178.0,1.0,42.5,73.76,10.66
+Brunei,BRN,east_asia_pacific,asia,high_income,False,False,,2008,5770.0,384700.0,1.86,24.18,22.89,11.67,24.046879999999998,2908.0,,,76.87,3.344
+Bulgaria,BGR,europe_central_asia,europe,upper_middle_income,True,False,2007-01-01,2013,111000.0,7349000.0,11.4,26.54,25.52,9.662,5.44993,2829.0,1.8,27.5,74.9,4.567
+Burkina Faso,BFA,sub_saharan_africa,africa,low_income,False,False,,2008,274220.0,15520000.0,7.32,21.27,21.63,19.4,0.13055999999999998,2588.0,2.3,33.8,56.85,35.65
+Burundi,BDI,sub_saharan_africa,africa,low_income,False,False,,2008,27830.0,7943000.0,9.65,21.5,21.28,,0.023219999999999998,,4.0,28.0,56.32,42.02
+Cambodia,KHM,east_asia_pacific,asia,low_income,False,False,,2008,181040.0,13820000.0,4.71,20.8,21.7,1.972,0.28083,2403.0,,,65.17,31.17
+Cameroon,CMR,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,475440.0,18760000.0,7.9,23.68,24.95,20.46,0.29325,2446.0,2.5,33.0,56.18,31.15
+Canada,CAN,america,americas,high_income,False,True,,2008,9984670.0,33330000.0,10.2,27.45,26.7,6.332999999999999,16.79499,3465.0,2.7,26.0,80.82,3.735
+Cape Verde,CPV,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,4030.0,487400.0,4.98,23.52,24.96,,0.95455,2540.0,2.0,37.1,71.99,16.04
+Central African Republic,CAF,sub_saharan_africa,africa,low_income,False,False,,2008,622980.0,4238000.0,3.17,20.99,22.4,,0.05823,2133.0,1.2,46.2,46.34,47.12
+Chad,TCD,sub_saharan_africa,africa,low_income,False,False,,2008,1284000.0,10650000.0,4.39,21.49,21.95,,0.04578,2027.0,2.5,30.7,55.18,44.31
+Chile,CHL,america,americas,high_income,False,True,,2008,756096.0,16800000.0,8.81,27.02,27.93,3.3289999999999997,4.31229,2943.0,1.7,38.4,79.2,4.649
+China,CHN,east_asia_pacific,asia,upper_middle_income,False,False,,2008,9562910.8,1328000000.0,5.56,22.92,22.91,3.59,5.61811,2977.0,2.0,31.8,73.75,11.34
+Colombia,COL,america,americas,upper_middle_income,False,False,,2008,1141750.0,45010000.0,6.59,24.94,26.23,2.1830000000000003,1.5164,2807.0,0.9,43.7,76.03,12.03
+Comoros,COM,sub_saharan_africa,africa,low_income,False,False,,2008,1861.0,697000.0,0.28,22.06,22.44,,0.16180999999999998,,1.5,48.1,65.29,41.87
+"Congo, Dem. Rep.",COD,sub_saharan_africa,africa,low_income,False,False,,2008,2344860.0,62470000.0,3.39,19.87,21.67,,0.030789999999999998,,2.2,32.4,56.48,56.37
+"Congo, Rep.",COG,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,342000.0,3836000.0,,21.87,23.11,,0.3181,2110.0,2.0,36.9,58.7,34.41
+Costa Rica,CRI,america,americas,upper_middle_income,False,False,,2008,51100.0,4522000.0,5.81,26.48,27.03,6.319,1.8353599999999999,2844.0,1.5,37.7,80.15,6.5489999999999995
+Cote d'Ivoire,CIV,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,322460.0,18990000.0,6.47,22.56,23.82,,0.34755,2739.0,1.8,32.6,55.17,40.54
+Croatia,HRV,europe_central_asia,europe,high_income,True,False,2013-01-01,2013,56590.0,4379000.0,15.0,26.6,25.18,6.434,4.10263,3059.0,2.6,23.7,77.08,3.4619999999999997
+Cuba,CUB,america,americas,upper_middle_income,False,False,,2008,109890.0,11270000.0,5.12,25.07,26.58,2.63,2.69179,3120.0,,,78.13,3.259
+Cyprus,CYP,europe_central_asia,europe,high_income,True,False,2004-05-01,2013,9250.0,1141000.0,8.84,27.42,25.93,6.419,5.19966,2649.0,3.2,30.8,80.64,2.016
+Czech Republic,CZE,europe_central_asia,europe,high_income,True,True,2004-05-01,2013,78870.0,10590000.0,16.47,27.91,26.51,5.72,9.313839999999999,3256.0,3.8,22.6,78.27,1.815
+Denmark,DNK,europe_central_asia,europe,high_income,True,True,1973-01-01,2013,42916.0,5611000.0,12.02,26.13,25.11,3.4810000000000003,6.83471,3367.0,3.6,23.7,80.39,2.76
+Djibouti,DJI,middle_east_north_africa,africa,lower_middle_income,False,False,,2008,23200.0,855600.0,1.87,23.38,24.38,,0.60602,2447.0,2.3,30.8,62.91,35.6
+Dominica,DMA,america,americas,upper_middle_income,False,False,,2008,750.0,68160.0,8.68,24.57,28.78,,1.85739,3021.0,,,73.46,
+Dominican Republic,DOM,america,americas,upper_middle_income,False,False,,2008,48670.0,9665000.0,6.28,25.2,26.87,17.05,2.1492400000000003,2352.0,1.7,37.5,74.22,18.54
+Ecuador,ECU,america,americas,upper_middle_income,False,False,,2008,256370.0,14060000.0,9.43,25.59,27.06,7.04,2.34423,2297.0,1.3,38.1,76.28,11.36
+Egypt,EGY,middle_east_north_africa,africa,lower_middle_income,False,False,,2008,1001450.0,78320000.0,0.32,26.73,30.1,10.7,2.45308,3490.0,3.9,27.0,70.54,13.49
+El Salvador,SLV,america,americas,lower_middle_income,False,False,,2008,21040.0,6130000.0,3.99,26.37,27.84,32.75,1.07124,2574.0,1.7,36.1,73.77,7.56
+Equatorial Guinea,GNQ,sub_saharan_africa,africa,high_income,False,False,,2008,28050.0,662300.0,6.12,23.77,24.53,,5.18538,,,,59.77,39.74
+Eritrea,ERI,sub_saharan_africa,africa,low_income,False,False,,2008,117600.0,4948000.0,1.64,20.89,21.08,,0.0979,,,,61.24,16.66
+Estonia,EST,europe_central_asia,europe,high_income,True,True,2004-05-01,2013,45230.0,1339000.0,17.24,26.26,25.19,5.896,15.053020000000002,3253.0,2.4,26.6,77.13,3.201
+Ethiopia,ETH,sub_saharan_africa,africa,low_income,False,False,,2008,1104300.0,79450000.0,4.1,20.25,20.71,19.05,0.07908,2018.0,4.1,25.6,59.39,39.31
+Fiji,FJI,east_asia_pacific,asia,upper_middle_income,False,False,,2008,18270.0,843700.0,2.76,26.53,29.34,5.625,1.0609600000000001,2948.0,2.7,32.9,64.9,8.429
+Finland,FIN,europe_central_asia,europe,high_income,True,True,1995-01-01,2013,338420.0,5419000.0,13.1,26.73,25.58,3.615,8.68554,3368.0,3.8,22.2,80.9,1.949
+France,FRA,europe_central_asia,europe,high_income,True,True,1952-07-23,2013,549087.0,63780000.0,12.48,25.85,24.83,2.491,5.2268,3482.0,3.2,26.4,81.95,2.235
+Gabon,GAB,sub_saharan_africa,africa,upper_middle_income,False,False,,2008,267670.0,1450000.0,9.46,24.08,25.95,,2.7161,2653.0,2.3,33.1,61.47,27.79
+Gambia,GMB,sub_saharan_africa,africa,low_income,False,False,,2008,11300.0,1636000.0,3.58,21.65,24.82,,0.23084000000000002,2589.0,1.8,36.9,64.93,33.83
+Georgia,GEO,europe_central_asia,europe,lower_middle_income,False,False,,2008,69700.0,4394000.0,6.66,25.55,26.45,8.737,1.1903700000000002,2975.0,2.2,28.6,72.34,19.51
+Germany,DEU,europe_central_asia,europe,high_income,True,True,1952-07-23,2013,357340.0,81800000.0,12.14,27.17,25.74,3.28,9.31903,3499.0,3.3,24.6,80.54,2.532
+Ghana,GHA,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,238540.0,23260000.0,3.11,22.84,24.33,13.86,0.39221999999999996,2950.0,1.9,32.7,61.27,29.97
+Greece,GRC,europe_central_asia,europe,high_income,True,True,1981-01-01,2013,131960.0,11450000.0,11.01,26.34,24.92,9.175,6.13731,3400.0,2.0,26.4,80.82,1.79
+Grenada,GRD,america,americas,upper_middle_income,False,False,,2008,340.0,103700.0,10.71,25.18,27.32,4.577,2.43455,2426.0,,,71.37,12.43
+Guatemala,GTM,america,americas,lower_middle_income,False,False,,2008,108890.0,13690000.0,7.1,25.3,26.84,0.862,0.81606,2378.0,1.1,43.2,70.8,10.5
+Guinea,GIN,sub_saharan_africa,africa,low_income,False,False,,2008,245860.0,9559000.0,0.79,22.52,22.45,,0.21206999999999998,2534.0,2.5,30.1,57.16,43.45
+Guinea-Bissau,GNB,sub_saharan_africa,africa,low_income,False,False,,2008,36130.0,1454000.0,3.9,21.64,22.93,,0.15353,2304.0,2.9,28.1,54.51,44.78
+Guyana,GUY,america,americas,lower_middle_income,False,False,,2008,214970.0,751600.0,8.7,23.68,26.47,7.391,2.08823,2599.0,1.5,34.1,65.18,23.2
+Haiti,HTI,america,americas,low_income,False,False,,2008,27750.0,9736000.0,5.92,23.66,23.28,1.005,0.24711,2014.0,,,59.3,24.66
+Honduras,HND,america,americas,lower_middle_income,False,False,,2008,112490.0,7303000.0,4.43,25.11,26.73,11.45,1.10159,2603.0,0.9,43.0,71.27,15.45
+"Hong Kong, China",HKG,east_asia_pacific,asia,high_income,False,False,,2007,1100.0,6873000.0,,24.94,23.65,0.5720000000000001,6.337940000000001,3246.0,,,81.99,
+Hungary,HUN,europe_central_asia,europe,upper_middle_income,True,True,2004-05-01,2013,93030.0,9934000.0,16.12,27.12,25.98,5.234,4.2819,3037.0,2.9,24.4,75.46,3.763
+Iceland,ISL,europe_central_asia,europe,high_income,False,True,,2008,103000.0,310700.0,7.38,27.21,26.03,3.435,6.81774,3428.0,3.6,27.0,81.78,1.298
+India,IND,south_asia,asia,lower_middle_income,False,False,,2008,3287260.0,1191000000.0,2.69,20.96,21.31,3.034,1.3101,2427.0,0.0,0.0,65.39,37.3
+Indonesia,IDN,east_asia_pacific,asia,lower_middle_income,False,False,,2008,1910930.0,235000000.0,0.56,21.86,22.99,1.232,1.7639,2544.0,0.0,0.0,69.34,18.99
+Iran,IRN,middle_east_north_africa,asia,upper_middle_income,False,False,,2008,1745150.0,72290000.0,1.03,25.31,27.24,26.73,7.43467,3012.0,2.0,34.0,73.78,18.84
+Iraq,IRQ,middle_east_north_africa,asia,upper_middle_income,False,False,,2008,438320.0,29820000.0,0.47,26.71,28.41,,3.19975,2358.0,3.9,23.6,66.18,25.09
+Ireland,IRL,europe_central_asia,europe,high_income,True,True,1973-01-01,2013,70280.0,4631000.0,14.92,27.65,26.62,3.7680000000000002,7.444489999999999,3600.0,2.8,26.0,80.96,2.735
+Israel,ISR,middle_east_north_africa,asia,high_income,False,True,,2008,22070.0,7092000.0,2.52,27.13,27.3,4.5889999999999995,9.61828,3523.0,1.8,29.4,80.52,2.273
+Italy,ITA,europe_central_asia,europe,high_income,True,True,1952-07-23,2013,301340.0,61090000.0,9.72,26.48,24.79,3.778,5.787319999999999,3579.0,2.0,25.9,82.15,2.319
+Jamaica,JAM,america,americas,upper_middle_income,False,False,,2008,10990.0,2720000.0,5.17,24.0,27.23,7.02,3.65895,2747.0,2.1,35.8,74.65,8.664
+Japan,JPN,east_asia_pacific,asia,high_income,False,True,,2008,377940.0,126500000.0,7.79,23.5,21.87,1.381,9.4137,2734.0,2.7,24.7,82.5,1.22
+Jordan,JOR,middle_east_north_africa,asia,upper_middle_income,False,False,,2008,88780.0,5849000.0,0.65,27.47,29.22,27.84,3.28965,3072.0,3.6,26.6,74.85,12.7
+Kazakhstan,KAZ,europe_central_asia,asia,upper_middle_income,False,False,,2008,2724902.0,15660000.0,11.1,26.29,26.65,,14.54936,3186.0,4.0,23.6,66.81,16.65
+Kenya,KEN,sub_saharan_africa,africa,low_income,False,False,,2008,580370.0,38460000.0,3.88,21.59,23.06,18.79,0.26161999999999996,2106.0,1.8,36.8,60.65,33.22
+Kiribati,KIR,east_asia_pacific,asia,lower_middle_income,False,False,,2008,810.0,96530.0,2.7,29.24,31.31,3.6719999999999997,0.55877,2881.0,2.6,29.3,60.52,
+Kuwait,KWT,middle_east_north_africa,asia,high_income,False,False,,2008,17820.0,2548000.0,0.1,29.17,31.16,0.693,31.19177,3512.0,,,77.19,5.7139999999999995
+Kyrgyz Republic,KGZ,europe_central_asia,asia,low_income,False,False,,2008,199950.0,5204000.0,4.72,24.75,25.68,10.7,1.45571,2679.0,3.5,25.3,67.39,17.78
+Lao,LAO,east_asia_pacific,asia,lower_middle_income,False,False,,2008,236800.0,6022000.0,6.99,21.08,22.03,,0.15632000000000001,2246.0,3.3,29.3,62.34,20.26
+Latvia,LVA,europe_central_asia,europe,high_income,True,True,2004-05-01,2013,64490.0,2226000.0,13.45,26.46,25.62,8.275,3.46973,3174.0,2.3,26.8,74.09,5.015
+Lebanon,LBN,middle_east_north_africa,asia,upper_middle_income,False,False,,2008,10450.0,4167000.0,2.3,27.2,27.7,,4.19055,3127.0,,,79.14,7.568
+Lesotho,LSO,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,30360.0,2127000.0,5.56,21.9,26.78,6.09,1.0634700000000001,2558.0,0.9,38.3,44.32,37.24
+Liberia,LBR,sub_saharan_africa,africa,low_income,False,False,,2008,111370.0,3658000.0,5.07,21.9,23.22,,0.15417,2227.0,2.4,28.3,59.76,44.18
+Libya,LBY,middle_east_north_africa,africa,upper_middle_income,False,False,,2008,1759540.0,6150000.0,0.1,26.54,29.2,,9.25371,,,,75.73,9.294
+Lithuania,LTU,europe_central_asia,europe,high_income,True,True,2004-05-01,2013,65300.0,3278000.0,16.3,26.86,26.01,8.09,4.21713,3417.0,2.5,27.1,74.05,2.833
+Luxembourg,LUX,europe_central_asia,europe,high_income,True,True,1952-07-23,2013,2590.0,530000.0,12.84,27.43,26.09,5.971,18.4521,3539.0,3.1,24.2,81.92,0.9171
+"Macedonia, FYR",MKD,europe_central_asia,europe,upper_middle_income,False,False,,2008,25710.0,2053000.0,8.94,26.34,25.38,2.6919999999999997,4.54788,2960.0,,,73.54,6.699
+Madagascar,MDG,sub_saharan_africa,africa,low_income,False,False,,2008,587040.0,19550000.0,1.32,21.4,20.74,,0.09444,2061.0,2.7,32.4,60.76,34.87
+Malawi,MWI,sub_saharan_africa,africa,low_income,False,False,,2008,118480.0,14010000.0,1.44,22.03,22.91,11.88,0.07400000000000001,2318.0,2.9,32.8,50.6,28.72
+Malaysia,MYS,east_asia_pacific,asia,upper_middle_income,False,False,,2008,330800.0,27500000.0,0.87,24.73,25.45,6.127999999999999,7.52578,2787.0,1.8,34.2,74.25,3.175
+Maldives,MDV,south_asia,asia,upper_middle_income,False,False,,2008,300.0,307600.0,,23.22,26.41,29.27,2.44428,2554.0,2.7,34.8,77.61,15.72
+Mali,MLI,sub_saharan_africa,africa,low_income,False,False,,2008,1240190.0,14460000.0,0.99,21.79,23.08,,0.07574,2777.0,2.5,30.2,58.37,52.48
+Malta,MLT,europe_central_asia,europe,high_income,True,False,2004-05-01,2013,320.0,420600.0,4.1,27.68,27.05,2.228,5.52763,3378.0,3.5,23.1,80.99,2.4459999999999997
+Mauritania,MRT,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,1030700.0,3295000.0,0.11,22.62,26.26,,0.5682,2772.0,2.6,26.2,67.38,44.74
+Mauritius,MUS,sub_saharan_africa,africa,upper_middle_income,False,False,,2008,2040.0,1284000.0,3.53,25.16,26.1,2.988,3.0418,3001.0,3.1,28.7,72.97,9.175
+Mexico,MEX,america,americas,upper_middle_income,False,True,,2008,1964380.0,110600000.0,8.55,27.42,28.74,9.468,4.33964,3079.0,2.0,35.2,75.46,7.192
+"Micronesia, Fed. Sts.",FSM,east_asia_pacific,asia,lower_middle_income,False,False,,2008,700.0,110400.0,5.25,28.1,31.28,,1.12315,,2.2,32.5,65.64,15.06
+Moldova,MDA,europe_central_asia,europe,lower_middle_income,False,False,,2008,33850.0,3635000.0,23.01,24.24,27.06,5.529,1.16215,2788.0,2.9,27.1,69.58,8.012
+Mongolia,MNG,east_asia_pacific,asia,lower_middle_income,False,False,,2008,1564120.0,2667000.0,3.41,24.88,25.71,13.82,4.58073,2375.0,3.0,27.8,65.64,13.8
+Montenegro,MNE,europe_central_asia,europe,upper_middle_income,False,False,,2008,13810.0,629200.0,,26.55,25.7,15.38,4.4272800000000005,3482.0,3.5,24.5,76.0,5.143
+Morocco,MAR,middle_east_north_africa,africa,lower_middle_income,False,False,,2008,446550.0,31320000.0,1.24,25.63,26.22,15.25,1.67422,3271.0,2.6,33.1,73.01,23.34
+Mozambique,MOZ,sub_saharan_africa,africa,low_income,False,False,,2008,799380.0,22330000.0,2.27,21.94,23.32,13.72,0.09919,2164.0,1.9,36.8,53.62,42.86
+Myanmar,MMR,east_asia_pacific,asia,low_income,False,False,,2008,676590.0,47250000.0,0.58,21.45,22.48,12.0,0.1981,2372.0,,,59.78,48.17
+Namibia,NAM,sub_saharan_africa,africa,upper_middle_income,False,False,,2008,824290.0,2200000.0,12.09,22.65,25.15,,1.579,2120.0,1.1,54.8,55.63,17.6
+Nepal,NPL,south_asia,asia,low_income,False,False,,2008,147180.0,28910000.0,2.42,20.76,20.73,,0.12922,2490.0,2.7,36.9,67.33,30.86
+Netherlands,NLD,europe_central_asia,europe,high_income,True,True,1952-07-23,2013,41540.0,16760000.0,9.75,26.02,25.47,2.237,10.28847,3228.0,3.6,22.7,81.29,2.82
+New Zealand,NZL,east_asia_pacific,asia,high_income,False,True,,2008,267710.0,4278000.0,9.99,27.77,27.37,7.6,7.994280000000001,3205.0,,,80.33,4.205
+Nicaragua,NIC,america,americas,lower_middle_income,False,False,,2008,130370.0,5636000.0,5.21,25.77,27.57,7.787999999999999,0.7904899999999999,2467.0,1.9,39.6,77.29,12.59
+Niger,NER,sub_saharan_africa,africa,low_income,False,False,,2008,1267000.0,14450000.0,0.34,21.22,21.96,30.82,0.05322,2520.0,3.2,31.4,57.57,33.99
+Nigeria,NGA,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,923770.0,150700000.0,12.72,23.03,23.67,,0.63951,2723.0,2.1,29.8,59.02,49.46
+North Korea,PRK,east_asia_pacific,asia,low_income,False,False,,2008,120540.0,24130000.0,18.28,22.02,21.25,,2.92303,2095.0,,,69.96,28.65
+Norway,NOR,europe_central_asia,europe,high_income,False,True,,2008,385178.0,4779000.0,8.35,26.93,25.74,3.125,11.67176,3478.0,3.5,21.8,80.69,1.705
+Oman,OMN,middle_east_north_africa,asia,high_income,False,False,,2008,309500.0,2637000.0,0.92,26.24,26.67,,15.478679999999999,2944.0,,,76.42,7.023
+Pakistan,PAK,south_asia,asia,lower_middle_income,False,False,,2008,796100.0,167400000.0,0.05,22.3,23.45,,0.97205,2422.0,4.0,27.1,64.68,53.24
+Palestine,PSE,middle_east_north_africa,asia,lower_middle_income,False,False,,2007,6020.0,3728000.0,,26.55,28.96,,0.61966,,2.8,27.6,71.98,
+Panama,PAN,america,americas,upper_middle_income,False,False,,2008,75420.0,3406000.0,7.3,26.27,27.68,7.986000000000001,2.09721,2523.0,0.9,41.1,77.64,10.08
+Papua New Guinea,PNG,east_asia_pacific,asia,lower_middle_income,False,False,,2008,462840.0,6549000.0,3.64,25.02,25.77,,0.7066899999999999,,0.5,40.7,58.21,25.64
+Paraguay,PRY,america,americas,lower_middle_income,False,False,,2008,406750.0,6230000.0,7.91,25.54,25.91,3.247,0.7361800000000001,2535.0,1.5,40.1,74.13,15.19
+Peru,PER,america,americas,upper_middle_income,False,False,,2008,1285220.0,28460000.0,6.53,24.77,25.99,4.446000000000001,1.432,2525.0,1.3,35.8,77.91,12.56
+Philippines,PHL,east_asia_pacific,asia,lower_middle_income,False,False,,2008,300000.0,90170000.0,6.08,22.87,23.47,2.5069999999999997,0.86895,2583.0,,,68.67,14.66
+Poland,POL,europe_central_asia,europe,high_income,True,True,2004-05-01,2008,312680.0,38220000.0,14.43,26.67,25.92,7.675,8.21508,3346.0,,,75.61,4.191
+Portugal,PRT,europe_central_asia,europe,high_income,True,True,1986-01-01,2013,92220.0,10700000.0,13.89,26.68,26.18,5.078,4.31499,3477.0,2.1,27.5,80.52,1.787
+Qatar,QAT,middle_east_north_africa,asia,high_income,False,False,,2008,11610.0,1396000.0,1.29,28.13,28.91,,46.67214,,,,78.37,3.739
+Romania,ROU,europe_central_asia,europe,upper_middle_income,True,False,2007-01-01,2013,238390.0,21340000.0,16.15,25.41,25.22,8.808,3.53522,3358.0,1.6,25.4,74.77,6.189
+Russia,RUS,europe_central_asia,europe,high_income,False,False,,2008,17098240.0,143200000.0,16.23,26.01,27.21,14.38,11.98589,3312.0,2.4,32.5,67.99,5.901
+Rwanda,RWA,sub_saharan_africa,africa,low_income,False,False,,2008,26340.0,10000000.0,9.99,22.55,22.07,6.416,0.0559,2101.0,1.7,43.9,62.47,35.23
+Samoa,WSM,east_asia_pacific,asia,lower_middle_income,False,False,,2008,2840.0,181800.0,4.51,30.42,33.66,,0.97906,2914.0,2.7,34.1,71.43,11.16
+Sao Tome and Principe,STP,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,960.0,159900.0,8.45,23.51,24.88,,0.5053,2466.0,3.3,24.5,67.7,32.45
+Saudi Arabia,SAU,middle_east_north_africa,asia,high_income,False,False,,2008,2149690.0,26170000.0,0.34,27.88,29.6,,16.583,3014.0,,,74.69,11.76
+Senegal,SEN,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,196710.0,11790000.0,0.51,21.93,24.31,24.75,0.41736,2439.0,2.4,30.0,63.17,34.1
+Serbia,SRB,europe_central_asia,europe,upper_middle_income,False,False,,2008,88360.0,9841000.0,12.21,26.51,25.67,5.985,5.725230000000001,2722.0,,,74.23,4.934
+Sierra Leone,SLE,sub_saharan_africa,africa,low_income,False,False,,2008,72300.0,5612000.0,9.48,22.53,23.93,21.32,0.10765,2197.0,2.7,32.0,53.83,44.62
+Singapore,SGP,east_asia_pacific,asia,high_income,False,False,,2008,710.0,4772000.0,1.54,23.84,22.87,,7.44873,,,,82.06,1.291
+Slovak Republic,SVK,europe_central_asia,europe,high_income,True,True,2004-05-01,2013,49036.0,5489000.0,13.31,26.93,26.32,6.746,6.0995800000000004,2944.0,3.0,22.1,76.47,3.2030000000000003
+Slovenia,SVN,europe_central_asia,europe,high_income,True,True,2004-05-01,2013,20270.0,2045000.0,14.94,27.44,26.58,5.315,6.84905,3168.0,3.6,21.4,80.26,2.003
+Solomon Islands,SLB,east_asia_pacific,asia,lower_middle_income,False,False,,2008,28900.0,510200.0,1.37,27.16,28.88,,0.37071,2480.0,1.9,35.7,61.39,14.2
+Somalia,SOM,sub_saharan_africa,africa,low_income,False,False,,2008,637660.0,8922000.0,0.5,21.97,22.67,,0.0529,,,,54.76,60.65
+South Africa,ZAF,sub_saharan_africa,africa,upper_middle_income,False,False,,2008,1219090.0,49320000.0,10.16,26.86,29.48,8.907,9.85422,2924.0,1.0,51.3,52.15,19.53
+South Korea,KOR,east_asia_pacific,asia,high_income,False,True,,2008,99830.0,47730000.0,19.15,23.99,23.33,4.319,10.31289,3187.0,2.6,24.5,79.55,2.185
+Spain,ESP,europe_central_asia,europe,high_income,True,True,1986-01-01,2013,505940.0,47040000.0,11.83,27.5,26.31,5.146,5.07596,3174.0,1.9,25.9,82.6,2.145
+Sri Lanka,LKA,south_asia,asia,lower_middle_income,False,False,,2008,65610.0,20470000.0,0.81,21.97,23.12,,0.61203,2443.0,2.9,32.8,74.05,8.66
+St. Lucia,LCA,america,americas,upper_middle_income,False,False,,2008,620.0,170600.0,12.05,24.65,27.22,15.9,2.34036,2555.0,2.0,32.5,75.19,11.86
+St. Vincent and the Grenadines,VCT,america,americas,upper_middle_income,False,False,,2008,390.0,109200.0,4.99,25.44,27.52,3.1239999999999997,2.0826599999999997,2868.0,,,71.6,9.911
+Sudan,SDN,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,2505810.0,32940000.0,2.56,22.4,23.16,11.79,0.45253999999999994,2344.0,,,65.89,40.54
+Suriname,SUR,america,americas,upper_middle_income,False,False,,2008,163820.0,515100.0,6.56,25.5,27.75,8.573,3.7727199999999996,2645.0,0.0,42.7,69.84,11.77
+Swaziland,SWZ,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,17360.0,1150000.0,5.05,23.17,28.45,20.15,0.9461,2257.0,1.8,44.1,44.5,18.21
+Sweden,SWE,europe_central_asia,europe,high_income,True,True,1995-01-01,2013,447420.0,9546000.0,9.5,26.38,25.15,2.737,4.6642,3179.0,2.9,22.2,81.89,1.631
+Switzerland,CHE,europe_central_asia,europe,high_income,False,True,,2008,41290.0,7573000.0,11.41,26.2,24.07,2.342,5.28412,3445.0,3.0,26.3,81.83,3.0589999999999997
+Syria,SYR,middle_east_north_africa,asia,lower_middle_income,False,False,,2008,185180.0,19690000.0,1.49,26.92,28.87,,3.32991,,3.2,28.7,75.51,7.9510000000000005
+Tajikistan,TJK,europe_central_asia,asia,low_income,False,False,,2008,142550.0,6691000.0,3.39,23.78,23.85,9.448,0.39731,2082.0,2.6,25.1,68.79,22.23
+Tanzania,TZA,sub_saharan_africa,africa,low_income,False,False,,2008,947300.0,42270000.0,7.86,22.48,23.08,16.55,0.14195,2132.0,2.5,31.9,57.98,33.44
+Thailand,THA,east_asia_pacific,asia,upper_middle_income,False,False,,2008,513120.0,68270000.0,7.08,23.01,24.39,2.101,3.7935300000000005,2757.0,2.7,31.1,75.6,10.21
+Timor-Leste,TLS,east_asia_pacific,asia,lower_middle_income,False,False,,2008,14870.0,1080000.0,0.74,20.59,21.51,,0.18707000000000001,2061.0,4.1,22.9,70.04,
+Togo,TGO,sub_saharan_africa,africa,low_income,False,False,,2008,56790.0,5777000.0,1.92,21.88,22.74,,0.27316,2316.0,2.5,32.6,57.39,33.0
+Tonga,TON,east_asia_pacific,asia,upper_middle_income,False,False,,2008,750.0,102900.0,3.92,31.0,34.26,,1.1748100000000001,,2.4,28.3,69.71,8.738
+Trinidad and Tobago,TTO,america,americas,high_income,False,False,,2008,5130.0,1331000.0,6.16,26.4,28.28,9.447000000000001,33.743590000000005,2828.0,2.1,29.9,72.31,24.47
+Tunisia,TUN,middle_east_north_africa,africa,upper_middle_income,False,False,,2008,163610.0,10250000.0,1.05,25.16,27.94,19.29,2.38539,3302.0,2.5,29.1,76.6,12.01
+Turkey,TUR,europe_central_asia,europe,upper_middle_income,False,True,,2008,785350.0,70920000.0,3.02,26.7,28.25,7.189,4.03151,3595.0,2.1,29.4,78.76,14.2
+Turkmenistan,TKM,europe_central_asia,asia,upper_middle_income,False,False,,2008,488100.0,4918000.0,5.0,25.25,24.66,,11.51416,2872.0,2.6,31.7,66.87,21.14
+Uganda,UGA,sub_saharan_africa,africa,low_income,False,False,,2008,241550.0,31340000.0,16.4,22.36,22.48,13.69,0.10075,2177.0,2.4,34.5,55.11,30.71
+Ukraine,UKR,europe_central_asia,europe,lower_middle_income,False,False,,2008,603550.0,45990000.0,17.47,25.42,26.23,8.771,6.7341,3297.0,4.1,21.9,67.97,8.271
+United Arab Emirates,ARE,middle_east_north_africa,asia,high_income,False,False,,2008,83600.0,6207000.0,0.52,28.05,29.61,31.85,22.82395,3149.0,,,76.75,4.715
+United Kingdom,GBR,europe_central_asia,europe,high_income,True,True,1973-01-01,2013,243610.0,63180000.0,13.24,27.39,26.94,3.377,7.08915,3424.0,2.9,25.3,80.74,3.2289999999999996
+United States,USA,america,americas,high_income,False,True,,2008,9831510.0,305000000.0,9.7,28.46,28.34,9.523,18.505570000000002,3700.0,1.7,30.5,78.33,4.378
+Uruguay,URY,america,americas,high_income,False,False,,2008,176220.0,3346000.0,8.99,26.39,26.59,2.5660000000000003,2.4666799999999998,2958.0,2.0,34.4,76.1,7.962999999999999
+Uzbekistan,UZB,europe_central_asia,asia,lower_middle_income,False,False,,2008,447400.0,26810000.0,3.61,25.32,25.43,6.417999999999999,4.47039,2597.0,2.9,28.3,68.01,19.69
+Vanuatu,VUT,east_asia_pacific,asia,lower_middle_income,False,False,,2008,12190.0,228000.0,0.96,26.79,28.46,,0.4231,2864.0,,,62.66,13.3
+Venezuela,VEN,america,americas,upper_middle_income,False,False,,2008,912050.0,28060000.0,7.6,27.45,28.13,7.332000000000001,6.36474,2808.0,0.5,34.1,74.89,9.894
+Vietnam,VNM,east_asia_pacific,asia,lower_middle_income,False,False,,2008,331051.0,85950000.0,3.91,20.92,21.07,,1.36081,2615.0,3.0,28.0,72.53,8.691
+Yemen,YEM,middle_east_north_africa,asia,lower_middle_income,False,False,,2008,527970.0,22630000.0,0.2,24.44,26.11,,0.99924,2134.0,3.3,28.6,66.4,32.25
+Zambia,ZMB,sub_saharan_africa,africa,lower_middle_income,False,False,,2008,752610.0,12380000.0,3.56,20.68,23.05,11.26,0.16594,1801.0,1.3,43.2,49.4,36.05
+Zimbabwe,ZWE,sub_saharan_africa,africa,low_income,False,False,,2008,390760.0,12450000.0,4.96,22.03,24.65,20.85,0.5731,2094.0,,,46.71,28.48

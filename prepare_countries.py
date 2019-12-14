@@ -31,10 +31,11 @@ def run():
     data = data.rename(rename_columns, axis=1)
 
     gap_data = (
-        data.dropna(thresh=len(data.columns) - 4)
+        data.dropna(thresh=len(data.columns) - 5)
         .sort_values("year", ascending=False)
         .groupby("name")
         .first()
+        .drop(["geo"], axis=1)
         # .drop(["iso3166_1_alpha3", "geo"], axis=1)
         .reset_index()
     )
@@ -156,9 +157,11 @@ data_columns = [
     "income_share_of_poorest_10percent",
     "income_share_of_richest_10percent",
     "life_expectancy_years",
+    "all_causes_deaths_in_newborn_per_1000_births",
 ]
 
 rename_columns = {
+    "all_causes_deaths_in_newborn_per_1000_births": "newborn_mortality",
     "surface_area_sq_km": "area",
     "food_supply_kilocalories_per_person_and_day": "calories_per_day",
     "total_population_with_projections": "population",
